@@ -1,0 +1,75 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: arial;
+	box-sizing: border-box;
+}
+.card-container{
+	width: 350px;
+	height: 430px;
+	border-radius: 29px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	box-shadow: 0px 1px 10px 1px #000;
+	overflow: hidden;
+	display: inline-block;
+}
+.upper-container{
+	height: 150px;
+    background-image: url("https://wallpapers.com/images/hd/red-and-blue-4k-space-0b97s563vz1x1img.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.image-container{
+	background: white;
+	width: 160px;
+	height: 160px;
+	border-radius: 40%;
+	padding: 5px;
+	transform: translate(90px,60px);
+}
+.image-container img{
+	width: 160px;
+	height: 160px;
+	border-radius: 40%;
+}
+.lower-container{
+	height: 280px;
+	background: #FFF;
+	padding-top: 75px;
+	text-align: center;
+}
+.lower-container h3, h4{
+	box-sizing: border-box;
+    margin-left: 5px;
+	line-height: .6;
+	font-weight: lighter;
+}
+.lower-container h4{
+	color: #e31ed3;
+    padding-left: 8px;
+	font-weight: bold;
+    margin: 12px;
+}
+.lower-container p{
+	font-size: 15px;
+	margin-bottom: 25px;
+}
+.lower-container .btn{
+	padding: 12px 20px;
+	background: #e31ed3;
+	border: none;
+	color: white;
+	border-radius: 30px;
+	font-size: 12px;
+	text-decoration: none;
+	font-weight: bold;
+	transition: all .3s ease-in;
+}
+.lower-container .btn:hover{
+	background: transparent;
+	color: #e31ed3;
+	border: 2px solid #e31ed3;
+}
